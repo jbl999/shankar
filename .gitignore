@@ -2,9 +2,10 @@
 *.org
 *.class
 *.php
-[aeiou]*.txt
 !index.php
 music/*.mp3
 movies/*.mp4
 images/*.jpeg
-
+README
+a
+b
