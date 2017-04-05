@@ -9,9 +9,4 @@
 
 COMMAND=/bin/ls
 
-echo "The value of $COMMAND is $COMMAND"
-
-
-
-
-
+echo "The value of \$COMMAND is $COMMAND"

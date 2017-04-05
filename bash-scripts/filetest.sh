@@ -8,7 +8,7 @@
 ##################
 
 
-# Check /etc/passwd file is present or not 
+# Check /etc/passwd file is present or  not 
 
 if [ -f "/etc/passwd" ]; then
   # Execute this if this is true
