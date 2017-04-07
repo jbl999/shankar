@@ -26,13 +26,13 @@ fi
 # Put the check condition here
 
 # AND test
-if [ $MARKS -gt 65 -a $MARKS -le 100 ]; then
+if [ $MARKS -ge 65 -a $MARKS -le 100 ]; then
    # True
    echo "Student Result :	First Class"
-elif [ $MARKS -gt 55 -a $MARKS -le 64 ]; then
+elif [ $MARKS -ge 55 -a $MARKS -le 64 ]; then
    # True
    echo "Student Result :	Second Class"
-elif [ $MARKS -gt 45 -a $MARKS -le 54 ]; then
+elif [ $MARKS -ge 45 -a $MARKS -le 54 ]; then
    # True
    echo "Student Result :	Third Class"
 else
