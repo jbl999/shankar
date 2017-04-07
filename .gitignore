@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+text*
+
+=======
+*.bak
+*.org
+*.class
+*.php
+!index.php
+music/*.mp3
+movies/*.mp4
+images/*.jpeg
+README
+a
+b
+>>>>>>> 511eb5363e6fe0d5e180291be9cc49173a8030c2
