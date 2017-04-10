@@ -1,9 +1,14 @@
 #!/bin/bash
 
-TIME=`date +%M-%d-%b-%y`   #M- minute d-date b-month y-year         
+TIME=`date +%d-%b-%y`   #M- minute d-date b-month y-year         
 FILENAME=etc."$TIME".tar.gz    
 SOURCE=/etc                   
 DESTI=/BACKUP/            
+if [ -f "$DESTI$FILENAME" ]; then
+  echo "The backup $DESTI$FILENAME already exits"
+  exit 
+fi
+
 if [ -d "/BACKUP" ]; then
 echo "Yes, Directory $DESTI is present"
 else
