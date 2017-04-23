@@ -18,4 +18,20 @@
   <build>
     <finalName>BankOfIndia</finalName>
   </build>
+  <repositories>
+    <repository>
+      <id>BankOfIndiaGroup</id>
+      <url>http://localhost:8081/nexus/content/groups/BankOfIndiaGroup/</url>
+    </repository>
+  </repositories>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>BankOfIndiaSnapshot</id>
+      <url>http://localhost:8081/nexus/content/repositories/BankOfIndiaSnapshot/</url>
+    </snapshotRepository>
+    <repository>
+      <id>BankOfIndiaRelease</id>
+      <url>http://localhost:8081/nexus/content/repositories/BankOfIndiaRelease/</url>
+    </repository>
+  </distributionManagement>
 </project>

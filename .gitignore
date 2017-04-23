@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-text*
-
-=======
 *.bak
 *.org
 *.class
@@ -13,4 +9,4 @@ images/*.jpeg
 README
 a
 b
->>>>>>> 511eb5363e6fe0d5e180291be9cc49173a8030c2
+BankOfIndia/target/
